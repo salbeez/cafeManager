@@ -9,11 +9,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.kosta.k153p2.dao.AddrInfoDao;
-import com.kosta.k153p2.dao.StoreInfoDao;
-import com.kosta.k153p2.dto.AddrInfo;
-import com.kosta.k153p2.dto.ProductInfo;
-import com.kosta.k153p2.dto.StoreInfo;
+import com.kosta.k153p2.admin.dao.StoreInfoDao;
+import com.kosta.k153p2.admin.dto.StoreInfo;
+import com.kosta.k153p2.store.dao.AddrInfoDao;
+import com.kosta.k153p2.store.dto.AddrInfo;
+import com.kosta.k153p2.store.dto.ProductInfo;
 
 public class StoreCtrl extends HttpServlet {
 
